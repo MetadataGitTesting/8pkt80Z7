@@ -1,0 +1,109 @@
+name: roger.batz
+description: grid-enabled
+version: 0.0.1
+author: cklqcwuu.0w7yz68t@5s2cozon.com
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-12-05 23:03:47'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/model:
+    name: model
+    schema: null
+    description: model desc
+    author: cklqcwuu.0w7yz68t@5s2cozon.com
+    files:
+    - model.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-12-05 23:03:49'
+  .prophecy/metadata/sqlmodels/newmodel:
+    name: newmodel
+    schema: null
+    description: desc model
+    author: cklqcwuu.0w7yz68t@5s2cozon.com
+    files:
+    - subpath/newmodel.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-12-05 23:03:49'
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros:
+  .prophecy/metadata/sqlmacros/macro:
+    name: macro
+    macroType: macro
+    description: macro desc
+    author: cklqcwuu.0w7yz68t@5s2cozon.com
+    files:
+    - sources.yml
+    createdAt: '2025-12-05 23:03:49'
+sqlSeeds:
+  .prophecy/metadata/sqlseeds/seed1:
+    name: seed1
+    schema: null
+    description: seed desc
+    author: cklqcwuu.0w7yz68t@5s2cozon.com
+    files:
+    - sources.yml
+    createdAt: '2025-12-05 23:03:49'
+sqlSources:
+  .prophecy/metadata/sqlsources/source:
+    name: source
+    description: source desc
+    author: cklqcwuu.0w7yz68t@5s2cozon.com
+    files:
+    - sources.yml
+    createdAt: '2025-12-05 23:03:49'
+    tables: []
+  .prophecy/metadata/sqlsources/multipleFileSource:
+    name: multipleFileSource
+    description: multipleFileSource desc
+    author: cklqcwuu.0w7yz68t@5s2cozon.com
+    files:
+    - sources1.yml
+    - mfs/src/multipleFileSource.yml
+    createdAt: '2025-12-05 23:03:49'
+    tables:
+    - name: table1
+      schema: null
+      description: descr 1
+      author: cklqcwuu.0w7yz68t@5s2cozon.com
+      createdAt: '2025-12-05 23:03:49'
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: cklqcwuu.0w7yz68t@5s2cozon.com
+  createdAt: '2025-12-05 23:03:47'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
